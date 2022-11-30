@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+<!-- JavaScript Bundle with Popper -->
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="./style.css">  
+
+
+<title><%= title  %> </title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark text-primary" style="background-image: linear-gradient(15deg, #4a85ce 0%, #c57dcc 100%); color: white;" >
+      <div class="container">
+         <img src="https://cwsmgmt.corsair.com/press/CORSAIRLogo2020_stack_K.png" width="150px" height="100px" style="margin-left:30px ;" alt="">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 50px; margin-right: 50px;">
+
+         <!-- services drop down -->
+         <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </button>
+            
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="/services/Custom-Developed-Software">Custom Developed Software</a></li>
+              <li><a class="dropdown-item" href="/services/Legacy-Software-Modernization">Legacy Software Modernization</a></li>
+              <li><a class="dropdown-item" href="/services/Software-Testing-Services">Software Testing Services</a></li>
+              <li><a class="dropdown-item" href="/services/Ecommerce-Website-Development">Ecommerce Website Development</a></li>
+              <li><a class="dropdown-item" href="/services/Embedded-Software-Development">Embedded Software Development</a></li>
+              <li><a class="dropdown-item" href="/services/Software-Maintenance">Software Maintenance</a></li>
+              <li><a class="dropdown-item" href="/services/Web-Application-Development">Web Application Development</a></li>
+            
+            </ul>
+          </div>
+
+<!-- Technology drop down -->
+<div class="dropdown">
+   <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+     Technology
+   </button>
+   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <li><a class="dropdown-item" href="/services/Cpp-Software-Development">C++ Software Development</a></li>
+      <li><a class="dropdown-item" href="/services/NET-Application-Development">.NET Application Development</a></li>
+    </ul>
+ </div>
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item" style="padding-top: 6px;">
+              <a class="nav-link" style="color: black;" href="/project">Studies</a>
+            </li>
+             <li class="nav-item" style="padding-top: 6px; padding-left: 17px;">
+               <a class="nav-link" style="color: black;" href="/resources">Resources</a>
+             </li>
+
+             <!-- Company drop down -->
+<div class="dropdown"style="padding-top: 8px;">
+   <button class="btn dropdown-toggle"  type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+      Company
+   </button>
+   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+     <li><a class="dropdown-item" href="#">Action</a></li>
+     <li><a class="dropdown-item" href="#">Another action</a></li>
+     <li><a class="dropdown-item" href="#">Something else here</a></li>
+   </ul>
+ </div>
+         
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   <section style="background-image: linear-gradient(15deg, #4a85ce 0%, #c57dcc 100%); "  id="home" style=" background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(https://www.rmets.org/sites/default/files/2019-10/map_with_magnifying_glass_-_banner1.jpg);
+   min-height: 5vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;">
+      <div class="container text-center">
+         <div class="row justify-content-center">
+            <div class="col-md-10" style="margin-bottom: 20px; color: white;">
+               <h1 class="text-white display-6 text-capitalize" style=" margin-top: 100px; padding-top: 70px; font-weight: bold; "> <%= title  %>  </h1>
+               <a style="color: white; text-decoration: none" href="#">Business Software Development</a> / 
+               <a style="color: white; text-decoration: none" href="/services">Software Development Services</a> / 
+               <a style="color: white; text-decoration: none" href="/services">Core Banking Software Development Services</a> 
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+<div>
+   
+   <!-- <p><img src="https://nexwebsites.com/images/banking_software_development_services.jpg" alt="alt text" style="float: right">Text here</p> -->
+
+<!-- BANKING SERVICES -->
+<h1 style="font-size:40px ; padding-left: 60px; padding-top: 50px;">Banking and Insurance Services</h1>
+   <div style="font-size:16px ; color: grey; padding-left: 60px; padding-top: 50px;padding-right: 50px;" class="row">
+    <div class="col-md-12">
+        <p>The Banking, Financial Services &amp; Insurance services industry is becoming more demanding than ever before. Clients are becoming savvier amid increasing regulations and greater competition. More than ever, the BFSI sector requires people who can create value for their firm and for their clients, quickly adapt to change and understand how to deal with the global &amp; local pressures of the financial crisis and its aftermath. Rapid &amp; massive growth as well as structural and regulatory changes are driving further need for people who can think clearly about new market opportunities and the transition to the next growth phase.</p>
+        <br>
+        <p>TekWissen is among best financial recruitment agencies in the markets we serve. Our BSFI Recruitment helps clients build their businesses by recruiting the right talent for them.</p>
+        <p>
+            Our BFSI Recruitment help clients to achieve substantial, positive, and sustainable impact. The practice serves a broad spectrum of clients in traditional and non-traditional financial industries, including :
+            </p><ul>
+                <li>Wholesale Banking</li>
+                <li>Corporate Banking</li>
+                <li>Retail Banking</li>
+                <li>Wealth Banking</li>
+                <li>Securities Brokering</li>
+                <li>Investment Banking</li>
+                <li>Leasing &amp; Equipment Finance</li>
+                <li>Commodities &amp; Forex Trading</li>
+            </ul>
+        <p></p>
+        <br>
+        
+    </div>
+</div>
+
+
+
+<!-- Recruitment Services -->
+<h1 style="font-size:40px ; padding-left: 60px; padding-top: 50px;">Recruitment Services</h1>
+<div class="container">
+ <div style="font-size:16px ; color: grey; padding-left: 60px; padding-top: 50px;padding-right: 50px;" class="row">
+      <div class="col-lg-6">
+          <div class="technology-v3-left">
+              <div class="ot-heading">
+                  <h2 class="main-heading">Contract Hire</h2>
+              </div>
+              <div class="space-5"></div>
+              <p>Whether it's a short-term need, or a long-term contract; it's all about finding the right skill and culture fit for your team. TekWissen is committed to finding the best talent for your unique needs.</p>
+              <p>Our recruiters are trained to understand the industries they support, and the marketplace along with your business needs. We then source candidates from vast databases to identify a qualified candidate pool. Finally, we go through a detailed, client-specific screening process to find the right fit to submit for our clients to meet. </p>
+          </div>
+      </div>
+      <div class="col-lg-6">
+          <img src="https://www.tekwissen.com/images/pages/contracthire.png" alt="Contract Hire">
+      </div>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+      <div class="col-lg-6">
+          <img src="https://www.tekwissen.com/images/pages/permanenthire.png" alt="Permanent Hire">
+      </div>
+      <div class="col-lg-6">
+          <div class="technology-v3-left">
+              <div class="ot-heading">
+                  <h2 class="main-heading">Permanent Hire</h2>
+              </div>
+              <div class="space-5"></div>
+              <p>Finding talent to join your team for permanent full-time positions is so much more than just finding a good resume. It's about finding the person who will help elevate your current team to the next level. We know how important culture fit and team dynamics are when hiring new resources, so we pay close attention to all the details to help you find the right fit. </p>
+              <br>
+              <p>TekWissen has a dedicated team of recruiting professionals who focus on direct placement positions. We know that only a small percentage of people are ever "actively" applying to positions. Our dedicated direct hire team connects with passive candidates, who likely are not actively applying for open vacancies, that would be missed by traditional recruiting. </p>
+          </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+      <div class="col-lg-6">
+          <div class="technology-v3-left">
+              <div class="ot-heading">
+                  <h2 class="main-heading">RPO</h2>
+              </div>
+              <div class="space-5"></div>
+              <p>TekWissen provides organizations with an enterprise wide or project-based recruitment outsourcing solution. Our end-to-end RPO service encompasses the entire recruitment lifecycle, from sourcing to screening and onboarding, leaving your internal team to focus on other key business initiatives. TekWissen's RPO solutions simplify the talent acquisition process, by increasing the number of qualified hires, while lowering costs per hire and reducing fill time. </p>
+              
+          </div>
+      </div>
+      <div class="col-lg-6">
+          <img src="https://www.tekwissen.com/images/pages/rpo.png" alt="RPO">
+      </div>
+  </div>
+</div>
+
+
+
+<!-- CUSTOMER SERVICES -->
+<h1 style="font-size:40px ; padding-left: 60px; padding-top: 50px;">Customer Services</h1>
+<div class="software-service" style="font-size:16px ; color: grey; padding-left: 60px; padding-top: 50px;padding-right: 50px;" class="row">
+  <h2 id="what-is-custom-developed-software">What is custom developed software?</h2>
+  <p>Custom developed software is designed specifically for your business. Which makes it different from software packages developed for the mass market. Such as commercial off-the-shelf (COTS) software, or existing free software.</p>
+  <p>Custom software can accommodate your particular preferences. It can be developed in an iterative process. Allowing possible hidden issues to be taken into account. Including issues not mentioned in the original requirements.</p>
+  <h2 id="why-is-custom-software-developed">Why is custom software developed?</h2>
+  <p>Custom software enables you to achieve your business objectives. When off the shelf software is inadequate or does not exist.</p>
+  <p>Larger companies use custom software for critical functions. Including ecommerce, inventory and customer management. Or to fill the gaps present in their existing software packages. Existing software may be <a href="https://nexwebsites.com/blog/legacy_software_problems_and_how_to_fix_them/">legacy software</a>, based on old methods or technology.</p>
+  <p>Even if it’s no longer used, a legacy system may continue to affect your business. Due to its historical role. Historic data may not be in the required format. The effect on business intelligence and reporting can be significant.</p>
+  <h2 id="custom-software-development-drawbacks">Custom Software development drawbacks</h2>
+  <p>The main drawback of <strong>custom developed software</strong> is development time. Custom software goes through a development process that may take weeks or months.</p>
+  <p>Custom developed software may seem to be expensive compared to off-the-shelf software. Though, in many cases, off-the-shelf software requires changes to support business operations. In which case, the cost of off-the-shelf software can be more than developing custom software.</p>
+  <p>The higher initial cost of custom software can be unimportant for businesses, because it’s efficient and even small efficiency increases can result in large savings in labor costs and resources.</p>
+  <p>Cost is not the only consideration, as the choice of custom software can include the following requirements:</p>
+  <ul>
+  <li>Enhanced or personalized processes</li>
+  <li>For the application to work with external programs</li>
+  <li>To avoid vendor lock in and recurring fees</li>
+  <li>To secure the future development</li>
+  <li>For the business to own the source code</li>
+  </ul>
+  <h2 id="what-are-the-advantages-of-customized-software">What are the advantages of customized software?</h2>
+  <blockquote>
+  <p><em>Custom software provides better efficiency and security. Custom software development produces the most efficient system. Because it can provide support for the specific needs of your business. Support that is not available in off-the-shelf software.</em></p>
+  </blockquote>
+  <img class="software-service-img img-fluid w-70 mb-60 rounded-top" src="../../images/svg/custom-software-advantages.svg" alt="Custom Software advantages">
+  <p>Custom software will produce the best or most well-targeted service improvement. Custom software can be tailored to work the way you do. Rather than having to choose a package that caters to a generic market. For example, one business may want software that responds in the shortest time. Another company may focus on producing the best results. These two objectives may be in conflict. An off-the-shelf package will sit somewhere in the middle. With custom software each business can focus on their target audience.</p>
+  <p>Custom software is more flexible than off-the-shelf software or spreadsheets. It’s built with a wide range of processes to address your business needs.</p>
+  <ul>
+  <li>Custom software is made to your specifications, to best serve your business' needs.</li>
+  <li>Custom software development can help protect your business from external threats.</li>
+  <li>Custom software is more scalable than off-the-shelf software packages.</li>
+  <li>Custom software development helps save on hardware acquisition costs.</li>
+  <li>A custom software investment is the property of your business. So it’s an asset which adds value to the company.</li>
+  </ul>
+  <h2 id="custom-developed-software-design-methods">Custom developed software design methods</h2>
+  <p>We use proven methods for all of our custom software development. Your defined processes and requirements are our priority.</p>
+  <p>Following a particular software development method ensures:</p>
+  <ul>
+  <li>Your software and its development is efficient</li>
+  <li>Your application gets developed with the lowest cost to you</li>
+  <li>Your software is of the highest quality</li>
+  </ul>
+  <p>An important objective is to make future maintenance easier.</p>
+  <p>The development of each and every project is in some way unique. Depending on your particular requirements.</p>
+  <h2 id="off-the-shelf-software-drawbacks">Off-the-shelf software drawbacks</h2>
+  <p><strong>The use of off-the-shelf software comes with a lot of not so obvious trade-offs</strong></p>
+  <ul>
+  <li>An increase in software component-integration work</li>
+  <li>Dependency on the vendor</li>
+  <li>Security issues</li>
+  <li>Recurring costs</li>
+  <li>Not compatible with future changes</li>
+  </ul>
+  <p>Off-the-shelf software packages may contain bugs. And used at a business without formal testing. These bugs may slip through and cause business-critical errors.</p>
+  <p>Off-the-shelf software comes with upfront license costs which vary. In some cases, these costs run into the millions of dollars. Software houses that release off-the-shelf software often change their product. So, it may need upgrading to be compatible every two to four years.</p>
+  <h2 id="off-the-shelf-software-security-implications">Off-the-shelf Software Security implications</h2>
+  <p>Using off-the-shelf software is serious security risk. According to the US Department of Homeland Security (DHS). Off-the-shelf software can introduce significant risk into a business' software supply chain. The risks are greater when using off-the-shelf software than with custom software.</p>
+  <p>Software industry observers say that supply chain disruption poses a major threat. “IT supply chains will be targeted and compromised. Forcing changes in the structure of the IT marketplace and how IT will be managed in the future”.</p>
+  <h2 id="off-the-shelf-software-issues-in-other-industries">Off-the-shelf software issues in other industries</h2>
+  <p>In the medical device industry, off-the-shelf software can be software of unknown pedigree (SOUP). That’s software developed with an unknown software development process or method. This prevents its use in medical devices. Faults in software components could become system failures in the device itself. If steps are not taken to ensure compliance with fair and safe standards.</p>
+  <h2 id="off-the-shelf-software-obsolescence">Off-the-shelf software obsolescence</h2>
+  <p>When off-the-shelf software becomes obsolete, it requires the development of a replacement system.</p>
+  <p>Off-the-shelf software may work out of the box. In practice though, it must be configured to achieve the needs of the business. Then integrated to existing business systems. Extending off-the-shelf software via custom development is an option. Consider this decision carefully. Due to the long term support and maintenance implications. Off-the-shelf software vendors don’t support customized usage. So upgrading off-the-shelf software products brings its own sets of issues.</p>
+  <h2 id="how-to-choose-between-custom-developed-software-and-off-the-shelf-software">How to choose between custom developed software and off-the-shelf software</h2>
+  <p>Have custom software created to meet your needs or settle for an off-the-shelf product?</p>
+  <p>There are five main criteria involved in selecting the correct software system:</p>
+  <ol>
+  <li>Development cost and time</li>
+  <li>Other staff costs</li>
+  <li>System efficiency</li>
+  <li>Service improvements</li>
+  <li>Flexibility</li>
+  </ol>
+  <h2 id="hybrid-software-development-model">Hybrid software development model</h2>
+  <p>A hybrid model of custom software development is possible. The focus is on the mismatch between off-the-shelf software features and the business requirements. The tactic is to use software which satisfies a maximum number of requirements. Then develop custom software (extensions or add-ons) to fill the gaps left by it.</p>
+  <h2 id="conclusion">Conclusion</h2>
+  <blockquote>
+  <p>“<em>Your business can be more effective and efficient, because Nexus software developers build systems that work.</em>”</p>
+  </blockquote>
+  <p>Since 1985, we’ve been developing custom software applications that make businesses more successful.</p>
+  <p>Nexus Software has provided the technical “brains” behind many companies that you may interact with every day.</p>
+  <p>When you choose Nexus Software Systems, you get an experienced team of developers that will work with you. Through every step of your custom software development project. To understand your unique objectives and help you to develop an effective application.</p>
+  <p>
+  By choosing Nexus Software Systems for your custom developed software, your application:
+  </p><ol>
+  <li>Costs less</li>
+  <li>Takes less time to implement</li>
+  <li>Works with your current system</li>
+  <li>Requires minimal additional training</li>
+  <li>Enables you to have complete control of your finished product</li>
+  </ol>
+  <p></p>
+  <p>
+  Whether you would like to build a new application, add functionality, or improve off-the-shelf software. We can help you automate your business processes. Convert all your data into a common format. And make sure you're getting what you need from your technology.
+  </p>
+  <p><strong>When you are ready, <a href="https://nexwebsites.com/contact/">contact us</a> to learn more about custom developed software for your business …</strong></p>
+  <div class="footnotes">
+  <ul>
+  <li><a href="https://nexwebsites.com/blog/custom-software-whatis/">What is Custom developed Software</a></li>
+  <li><a href="https://nexwebsites.com/blog/how-to-choose-software-development-method/">How to Choose a Software Development Methodology</a></li>
+  <li><a href="https://nexwebsites.com/blog/outsourcing_software_development_avoid_failure/">How To Avoid Failure When Outsourcing Software Development</a></li>
+  </ul>
+  </div>
+  </div>
+
+
+
+</div>
+  
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+   <!-- Section: Social media -->
+   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+     <!-- Left -->
+     <div class="me-5 d-none d-lg-block">
+       <span>Get connected with us on social networks:</span>
+     </div>
+     <!-- Left -->
+ 
+     <!-- Right -->
+     <div>
+       <a href="" class="me-4 text-reset">
+         <i class="fab fa-facebook-f"></i>
+       </a>
+       <a href="" class="me-4 text-reset">
+         <i class="fab fa-twitter"></i>
+       </a>
+       <a href="" class="me-4 text-reset">
+         <i class="fab fa-google"></i>
+       </a>
+       <a href="" class="me-4 text-reset">
+         <i class="fab fa-instagram"></i>
+       </a>
+       <a href="" class="me-4 text-reset">
+         <i class="fab fa-linkedin"></i>
+       </a>
+       <a href="" class="me-4 text-reset">
+         <i class="fab fa-github"></i>
+       </a>
+     </div>
+     <!-- Right -->
+   </section>
+   <!-- Section: Social media -->
+ 
+   <!-- Section: Links  -->
+   <section class="">
+     <div class="container text-center text-md-start mt-5">
+       <!-- Grid row -->
+       <div class="row mt-3">
+         <!-- Grid column -->
+         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+           <!-- Content -->
+           <h6 class="text-uppercase fw-bold mb-4">
+             <i class="fas fa-gem me-3"></i>Company name
+           </h6>
+           <p>
+             Here you can use rows and columns to organize your footer content. Lorem ipsum
+             dolor sit amet, consectetur adipisicing elit.
+           </p>
+         </div>
+         <!-- Grid column -->
+ 
+         <!-- Grid column -->
+         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+           <!-- Links -->
+           <h6 class="text-uppercase fw-bold mb-4">
+             Products
+           </h6>
+           <p>
+             <a href="#!" class="text-reset">Angular</a>
+           </p>
+           <p>
+             <a href="#!" class="text-reset">React</a>
+           </p>
+           <p>
+             <a href="#!" class="text-reset">Vue</a>
+           </p>
+           <p>
+             <a href="#!" class="text-reset">Laravel</a>
+           </p>
+         </div>
+         <!-- Grid column -->
+ 
+         <!-- Grid column -->
+         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+           <!-- Links -->
+           <h6 class="text-uppercase fw-bold mb-4">
+             Useful links
+           </h6>
+           <p>
+             <a href="#!" class="text-reset">Pricing</a>
+           </p>
+           <p>
+             <a href="#!" class="text-reset">Settings</a>
+           </p>
+           <p>
+             <a href="#!" class="text-reset">Orders</a>
+           </p>
+           <p>
+             <a href="#!" class="text-reset">Help</a>
+           </p>
+         </div>
+         <!-- Grid column -->
+ 
+         <!-- Grid column -->
+         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+           <!-- Links -->
+           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+           <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+           <p>
+             <i class="fas fa-envelope me-3"></i>
+             info@example.com
+           </p>
+           <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+           <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+         </div>
+         <!-- Grid column -->
+       </div>
+       <!-- Grid row -->
+     </div>
+   </section>
+   <!-- Section: Links  -->
+ 
+   <!-- Copyright -->
+   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+     © 2021 Copyright:
+     <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+   </div>
+   <!-- Copyright -->
+ </footer>
+ <!-- Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
